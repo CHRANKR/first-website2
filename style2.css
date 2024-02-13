@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: silver;
+    color: hsl(74, 89%, 56%);
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+}
+header {
+    background-color: black;
+    color: hsl(123, 86%, 51%);
+    text-align: left;
+    opacity: 1.6;
+    padding: 1rem;
+    text-transform: capitalize;
+    
+    
+}
+header a{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+nav {
+    background-color: gray;
+    display: flex;
+    justify-content: center; 
+    padding: 0.5rem;
+    
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+     
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.52;
+    color: black;
+
+    
+}
+.container a{
+     text-transform : capitalize;
+}
+.about-me  {
+    color: hsl(187, 86%, 47%);
+    margin-bottom: 30px;
+}
+.projects {
+    color: hsl(19, 74%, 39%);
+    margin-bottom: 30px;
+}
+.contact {
+    color: hsl(335, 84%, 43%);
+    margin-bottom: 30px;
+    table,th {
+
+text-align: center;
+    }
+    table {
+        border-collapse:collapse ;
+        
+    }
+    th{
+        padding: 1px;
+    }
+}
